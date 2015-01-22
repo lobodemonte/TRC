@@ -1,0 +1,111 @@
+.carousel {
+ 	margin: 0 auto;
+	width: inherit;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+	bottom: 200px;
+}
+
+div.slideshow{
+	height: 500px;
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;	
+	background-color: gray;
+	overflow: hidden;
+}
+
+div.slide{
+	display: none;
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	margin-left: auto;
+	margin-right: 500px;
+}
+div.slide img{
+	width: 1000px;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+}
+div.slide .description{
+	width: inherit;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	height: 100px;
+	background: rgba(0,0,0,0.4);
+	color: white;
+
+	position: absolute;
+	bottom: 0;
+}
+p.text{
+	color: white;
+	position: relative;
+	margin: 0;
+	text-align: justify;
+}
+
+div.nav {
+	position: absolute;
+	overflow:hidden;
+	margin-bottom: 10px;
+    left:0;
+    right:0;
+    bottom:0; 
+}
+
+div.arrows{
+	overflow: hidden;
+	height: 30px;
+	width: 100%;
+	margin: 0 0 210px;
+}
+div.arrows img{
+	height: inherit;
+	width: 20px;
+	display: inline-block;
+	cursor: pointer;
+	margin: 0;
+}
+div.arrows #left{
+	float: left;
+}
+div.arrows #right{
+	float: right;
+}
+
+div.nav ul{
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    margin-left: 100px;
+	margin-right: 100px;
+	padding-right: 40px;
+}
+ div.nav ul li{
+     background: #DADADA;
+     border-radius: 50%;
+     display: inline-block;
+     width:15px;
+     height:15px;
+     cursor: pointer;
+}
+div.nav ul li.hover{
+	background: #838383;
+}
+div.nav ul li.active{
+	background: #838383;
+}
+
+

@@ -1,0 +1,33 @@
+.footer {
+	width: inherit;
+	height: 50px;
+	background-color: #333333;
+	color: #cccccc;
+	bottom: 0px;
+	
+}
+
+.copyright {
+	height: 30px;
+	float: left;
+}
+
+.recsports{
+	text-align: center;
+	padding: 5px;
+}
+
+.recsports a { color: inherit; } 
+
+.social {
+	text-align: right;
+	float: right;
+	height: 40px;
+	padding: 5px;
+}
+
+.social img{
+	width: 40px;
+	height: auto;
+	margin-left: 5px;
+}
